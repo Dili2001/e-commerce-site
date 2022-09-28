@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Men's Casual Solid Lycra Shirt",
+      "categoryId": "1",
+      "description": "Latest Men’s Half Sleeves Shirt",
+      "price": "1000",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/vHj6n8jy/shirt1.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Malabar Textiles",
+      "warranty": 1
+    },
+    {
+      "id": "2",
+      "productName": "Men's Formals Shirt",
+      "categoryId": "1",
+      "description": "L Half Sleeves Shirt",
+      "price": "700",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/Yq1hvN16/shirt2.jpg",
+      "rating": "4.7",
+      "review": "250",
+      "vendor_name": "Malabar texstyle",
+      "warranty": 2
+    },
+    {
+      "id": 3,
+      "productName": "Butterfly Arrow 500 W Mixer Grinder",
+      "categoryId": "4",
+      "description": "1 year limited domestic brand warranty on product and 2 year limited domestic brand warranty on moto",
+      "price": "1,697",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/mZC7H4pQ/picture-11.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Malabar Textiles",
+      "warranty": 1
+    },
+    {
+      "id": 4,
+      "productName": "Women Dress",
+      "categoryId": "1",
+      "description": "Casual dress",
+      "price": 700,
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/MK8GJchv/w1.jpg",
+      "rating": 4.3,
+      "review": 450,
+      "vendor_name": "Chennai Textiles",
+      "warranty": 1
+    },
+    {
+      "id": 5,
+      "productName": "Medium 26 L Backpack JERSEY 26L BLACK BACKPACK  (Black)",
+      "categoryId": "2",
+      "description": "This is a genuine Safari product. The product comes with a standard warranty of 18",
+      "price": "805",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/BvfByvzQ/jersey-26l-black-backpack-jersey19cbblu-backpack-safari-original-imaf8yr6gfh3sdmk.webp",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Malabar Textiles",
+      "warranty": 1
+    },
+    {
+      "id": "6",
+      "productName": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "categoryId": "5",
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "price": "500",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/mgN51hFh/51-UDEz-MJVp-L-UL1254-1.jpg",
+      "rating": "3.5",
+      "review": "200",
+      "vendor_name": "Malabar Jwellers",
+      "warranty": 1
+    },
+    {
+      "id": 7,
+      "productName": "boAt Wave Beat Smartwatch  (Pink Strap, Free Size)",
+      "categoryId":"3",
+      "description": "The boAt Wave Beat is the perfect companion for your fitness transformation and is here to make life easy",
+      "price": "820",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/gkn9cM2L/boat-storm-pro-call-smartwatchred-strap-free-size-299x338.webp",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Malabar Textiles",
+      "warranty": 1
+    },
+    {
+      "id": "9",
+      "productName": "Inspiron 16 Laptop",
+      "categoryId": "3",
+      "description": "Processor 12th Gen Intel® Core™ i3-1215U (10 MB cache, 6 cores, 8 threads, up to 4.40 GHz Turbo)  Operating System Windows 11 Home Single Language, English",
+      "price": "51,990.01",
+      "productImg": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&wid=4000&hei=2691&qlt=100,1&resMode=sharp2&size=4000,2691&chrss=full&imwidth=5000",
+      "rating": "4",
+      "review": "150",
+      "vendor_name": "Dell",
+      "warranty": "2 "
+    },
+    {
+      "id": "10",
+      "productName": "Galaxy M33",
+      "categoryId":"3",
+      "description": "5G 6GB |  Deep Ocean Blue",
+      "price": " 14499.00",
+      "is_available": "Yes",
+      "productImg": "https://i.postimg.cc/cJsgL44T/in-galaxy-m33-5g-6gb-ram-sm-m336bzbpins-531839740.png",
+      "rating": "4",
+      "review": "150",
+      "vendor_name": "Samsung",
+      "warranty": "2"
+    }
+  ]
+}

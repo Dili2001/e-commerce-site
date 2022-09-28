@@ -1,0 +1,76 @@
+<!-- category -->
+<div class="container-fluid">
+    <div class="row container d-flex p-2">
+        <div class="col-lg-6 d-flex">
+            <div class="item bg-white m-3 mb-1 ">
+                <a (click)="categorySearch('')" href="" class="text-decoration-none">
+                   <img height="130px" width="140px"  src="https://i.postimg.cc/0QCXNs8T/Amazonfavesjan22.jpg" alt=""> 
+                   <h6 class="text-center text-dark  ">All products</h6>
+                </a>
+            </div>
+            <div class="item bg-white m-3 mb-1">
+                <a (click)="categorySearch('3')" href="" class="text-decoration-none">
+                   <img height="130px" width="140px" src="https://i.postimg.cc/MHv22NCD/electronics.webp" alt=""> 
+                   <h6 class="text-center text-dark  ">Electronics</h6>
+                </a>
+            </div>
+            <div class="item bg-white m-3 mb-1">
+                <a (click)="categorySearch('4')" href="" class="text-decoration-none">
+                   <img height="130px" width="140px" src="https://i.postimg.cc/NjhFgq5G/istockphoto-1174598609-612x612.jpg" alt=""> 
+                   <h6 class="text-center text-dark  ">Home Appliances</h6>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-6 d-flex">
+            <div class="item bg-white m-3 mb-1">
+                <a (click)="categorySearch('1')" href="" class="text-decoration-none">
+                   <img height="130px" width="140px" src="https://i.postimg.cc/sDPdZtTg/full-length-shot-caucasian-couple-260nw-1292015512.webp" alt=""> 
+                   <h6 class="text-center text-dark  ">Fashion</h6>
+                </a>
+            </div>
+            <div class="item bg-white m-3 mb-1">
+                <a (click)="categorySearch('5')" href="" class="text-decoration-none">
+                   <img height="130px" width="140px" src="https://i.postimg.cc/x1WC1r8T/high-jewellery-600x466.jpg" alt=""> 
+                   <h6 class="text-center text-dark  ">Jewellary</h6>
+                </a>
+            </div>
+            <div class="item bg-white m-3 mb-1">
+                <a (click)="categorySearch('6')" href="" class="text-decoration-none">
+                   <img height="130px" width="140px" src="https://i.postimg.cc/tRP8LKQN/20-BOKB-ALL-PRODUCTS-HP-3-210827-SG-636-HP-1.webp"
+                    alt=""> 
+                   <h6 class="text-center text-dark  ">Beauty</h6>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- section -->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5" *ngFor="let product of categoryList" >
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top" style="height:250px; padding: 20px;" src="{{product.productImg}}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{product.productName}}</h5>
+                            <!-- Product price-->
+                            ₹ {{product.price}}
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="products/view-product/{{product.id}}">View options</a></div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</section>
